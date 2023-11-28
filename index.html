@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Etch-a-Sketch></title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="buttons">
+        <input type="color" class="bar" id="colorpicker" />
+        <button class="black">Black</button>
+        <button class="eraser">Eraser</button>
+        <button class="rgb">RGB</button>
+        <button class="clear">Clear</button>
+        <div class="slidercontainer">
+          <div class="slidervalue">1 x 1</div>
+          <input
+            type="range"
+            min="1"
+            max="64"
+            value="1"
+            class="slider"
+            id="slider"
+          />
+        </div>
+      </div>
+      <div class="container1">
+        <div class="title">Etch-a-Sketch</div>
+        <div class="board">
+          <div class="boardscreen"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
